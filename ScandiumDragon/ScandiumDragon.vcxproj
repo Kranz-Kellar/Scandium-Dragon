@@ -123,6 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="core\Engine.cpp" />
+    <ClCompile Include="core\Module.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\Engine.h" />
+    <ClInclude Include="core\Module.h" />
+    <ClInclude Include="core\ModuleType.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
