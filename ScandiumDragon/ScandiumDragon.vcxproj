@@ -124,12 +124,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="core\Engine.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="core\Module.cpp" />
+    <ClCompile Include="core\events\EventManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core\Engine.h" />
+    <ClInclude Include="core\events\Event.h" />
+    <ClInclude Include="core\events\EventType.h" />
     <ClInclude Include="core\Module.h" />
     <ClInclude Include="core\ModuleType.h" />
+    <ClInclude Include="core\events\EventManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
