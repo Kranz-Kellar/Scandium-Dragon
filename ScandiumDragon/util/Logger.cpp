@@ -4,6 +4,8 @@ const char* SD::Logger::logFileName = LOG_FILE_NAME;
 
 #ifdef _DEBUG
 bool SD::Logger::_IsLogToConsole = true;
+#else 
+bool SD::Logger::_IsLogToConsole = false;
 #endif
 
 void SD::Logger::_WriteToFile(const char* msg)
