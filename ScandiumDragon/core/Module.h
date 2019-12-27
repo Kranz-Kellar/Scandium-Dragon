@@ -2,15 +2,17 @@
 #include <stdint.h>
 #include "ModuleType.h"
 #include "events/EventManager.h"
+#include "../util/Logger.h"
 
 namespace SD {
 
 	class Module
 	{
+	protected:
 		ModuleType type;
 		bool isEnabled;
 	public:
-		virtual ~Module() = 0;
+		virtual ~Module() {};
 
 		virtual void init() = 0;
 		virtual void update(uint32_t delta) = 0;

@@ -1,6 +1,7 @@
 #pragma once
 #include <vector>
-#include "Module.h"
+//#include "Module.h"
+#include "modules/WindowHandler.h"
 using namespace std;
 
 namespace SD {
